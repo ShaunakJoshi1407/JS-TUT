@@ -4,6 +4,10 @@ var psswd = "TrialBased"
 acctCity = "Pune"
 
 console.log([accountEmail, psswd, acctCity])
+console.log(typeof(acctCity))
+console.log(typeof(accountId))
+console.log(typeof(null))
+console.log(typeof(undefined))
 
 /*
 A variable declared with var is defined throughout the program. 
