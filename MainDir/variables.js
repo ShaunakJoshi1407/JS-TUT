@@ -20,3 +20,11 @@ difference between them is that var is function scoped and let is block scoped.
 Variable declared by let cannot be redeclared and must be declared before use 
 whereas variables declared with var keyword are hoisted. 
 */
+
+let acctId = Number(accountId)
+console.log(typeof(acctId))
+
+score = "334521sddfd"
+valueOfScore = Number(score)
+console.log(typeof(valueOfScore))
+console.log(valueOfScore)
